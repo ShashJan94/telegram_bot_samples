@@ -31,68 +31,20 @@ Include a section explaining how to run Docker scripts. For example:
 
 1. Navigate to the `docker-scripts` directory:
 
-   ```bash
+   ```
    cd docker-scripts
    ```
+```
+2. ## Execute a Docker script using the following command:
 
-2. Execute a Docker script using the following command:
-
-   ```bash
-   ./script_name.sh
-   ```
-
-   Replace `script_name.sh` with the name of the specific Docker script you want to run.
 ```
 
-### 4. Instructions for Running Azure Scripts:
-
-#### Azure-related tasks:
-
-Include a section explaining how to run Azure scripts. For example:
-
 ```
-## Running Azure Scripts
-
-1. Navigate to the `azure-scripts` directory:
-
-   ```bash
-   cd azure-scripts
-   ```
-
-2. Execute an Azure script using the following command:
-
-   ```bash
-   ./script_name.sh
-   ```
-
-   Replace `script_name.sh` with the name of the specific Azure script you want to run.
+./script_name.sh
 ```
 
-### 5. Instructions for Building and Running the Docker Image:
+   Replace `script_name.sh` with the name of the specific Docker script you want to run
 
-Include instructions for building and running the Docker image. For example:
-
-```
-## Building and Running the Docker Image
-
-1. Build the Docker image using the provided Dockerfile:
-
-   ```bash
-   docker build -t your-image-name .
-   ```
-
-2. Run a Docker container based on the built image:
-
-   ```bash
-   docker run -it your-image-name
-   ```
-
-   Adjust `your-image-name` to the desired name for your Docker image.
-```
-
-### 6. Include Troubleshooting Tips:
-
-Consider adding a troubleshooting section to help users if they encounter issues. Include common problems and solutions or direct them to relevant resources.
 
 ```
 ## Troubleshooting
@@ -104,39 +56,13 @@ Consider adding a troubleshooting section to help users if they encounter issues
   - **Solution:** Double-check Azure CLI installation and verify Azure authentication.
 ```
 
-### 7. Usage Examples:
-
-Provide examples of how users can combine Docker and Azure scripts for specific use cases. For instance:
 
 ```
-## Usage Examples
-
-### Deploy Dockerized Application to Azure Container Instances
-
-1. Build the Docker image:
-
-   ```bash
-   docker build -t my-app-image .
-   ```
-
-2. Push the image to Azure Container Registry:
-
-   ```bash
-   ./azure-scripts/push-to-acr.sh my-app-image
-   ```
-
-3. Deploy the application to Azure Container Instances:
-
-   ```bash
-   ./azure-scripts/deploy-to-aci.sh my-app-container
-   ```
-```
-
 ### 8. License and Contributions:
 
 Include information about the license and encourage contributions if applicable.
 
-```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -145,5 +71,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to contribute to this project. Fork it, make changes, and submit a pull request!
 ```
-
-By following these steps, you create a comprehensive README that guides users through running Docker and Azure scripts in your GitHub repository. Adjust the instructions based on your project's specifics and the complexity of your scripts.
