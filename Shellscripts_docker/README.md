@@ -31,13 +31,13 @@ Include a section explaining how to run Docker scripts. For example:
 
 1. Navigate to the `docker-scripts` directory:
 
-   ```
    cd docker-scripts
-   ```
-```
+
+    
+
 2. ## Execute a Docker script using the following command:
 
-```
+
 
 ```
 ./script_name.sh
