@@ -56,7 +56,7 @@
    
    # Run app.py when the container launches
    CMD ["python", "scriptName.py"]
-```
+   ```
 
 5. **Build and Run Docker Container:**
 
